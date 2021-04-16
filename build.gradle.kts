@@ -1,4 +1,4 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+﻿import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.4.32"
@@ -19,4 +19,5 @@ tasks.withType<KotlinCompile>() {
 
 dependencies {
 
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 }
